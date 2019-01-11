@@ -147,24 +147,24 @@ a#fresh-game {
         background-color: rgba(26, 25, 24, 0.699);
     }
     #navMain .nav-link.active:hover {
-        color: white;
+        color: blue;
     }
     #navMain.navbar-shrink {
         padding-top: 10px;
         padding-bottom: 10px;
-        border-bottom: 1px solid red;
-        background: rgba(128, 128, 128, 0.26);
+        border-bottom: 1px solid pink;
+        background: greenyellow;
     }
     #navMain.navbar-shrink a {
-        color: rgba(250, 0, 42, 0.973);
+        color:pink;
     }
     #start-game a {
         margin-top: 30%;
     }
     .footer {
         position: fixed;
-        color: white;
-        background-color: black;
+        color: blue;
+        background-color: red;
         right: 0;
         left: 0;
         bottom: 0;
