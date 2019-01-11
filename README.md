@@ -1,5 +1,5 @@
 # Pig-Dice
-#### Fourth Independent Project for Moringa prep class , April 8th, 2018
+#### Fourth Independent Project for Moringa prep class , January 11st, 2019
 #### By **Claudine Akimanizanye**
 
 ## Description
@@ -30,8 +30,9 @@ An output of one results in a zero of accumulated points.
 ## Preview
 **[Click here](https://devwaweru.github.io/Pig-Dice)** to see the live site.
 
-## Known Bugs
-No bugs so far. If found, email me at developer.waweru@gmail.com
+#Contact information 
+Email: akimanizanyeclaudine@gmail.com Phone:0789616355
+
 
 ## Technologies Used
     1. HTML
