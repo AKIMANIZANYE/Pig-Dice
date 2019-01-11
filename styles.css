@@ -50,7 +50,7 @@ h3, p, li {text-transform: uppercase;}
     width: 50%;
     float: left;
     height: 600px;
-    padding: 100px;
+    padding: 110px;
 }
 
 
@@ -100,7 +100,7 @@ h3, p, li {text-transform: uppercase;}
     content: "\2022";
     font-size: 47px;
     position: absolute;
-    color: #EB4D4D;
+    color: yellowgreen;
     top: -7px;
     right: 10px;
     
@@ -133,6 +133,7 @@ h3, p, li {text-transform: uppercase;}
 
 .player-current-score {
     font-size: 30px;
+    color:violet;
 }
 
 button {
@@ -168,7 +169,7 @@ i {
     transition: margin 0.3s;
 }
 
-.color-0 {color: #EB4D4D;}
+.color-0 {color: green;}
 .color-1 {color: #2ecc71;}
 
 .btn-new { top: 105px;}
@@ -191,6 +192,6 @@ i {
 
 .winner-0 { background-color: rgba(255, 175, 189, 0.1) }
 .winner-1 { background-color: rgba(46, 204, 113, 0.1) }
-.winner-0 .player-name { font-weight: 300; color: #EB4D4D;}
+.winner-0 .player-name { font-weight: 300; color: yellow;}
 .winner-1 .player-name { font-weight: 300; color: #2ecc71;}
 

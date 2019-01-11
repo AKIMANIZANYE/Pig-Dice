@@ -11,14 +11,14 @@ var diceimgs = {
     diceimg02: '2.png',
     diceimg03: "3.png",
     diceimg04: "4.png",
-    diceimg05: "https://cdn.pbrd.co/images/70Zqc4icX.png",
-    diceimg06: "https://cdn.pbrd.co/images/712DzRw22.png",
-    diceimg11: "https://cdn.pbrd.co/images/713n3lHQN.png",
-    diceimg12: 'https://cdn.pbrd.co/images/713JSMJDr.png',
-    diceimg13: "https://cdn.pbrd.co/images/HvoZO4Gb.png",
-    diceimg14: "https://cdn.pbrd.co/images/HvqN3Kjq.png",
-    diceimg15: "https://cdn.pbrd.co/images/714IXBStH.png",
-    diceimg16: "https://cdn.pbrd.co/images/714ZovsdD.png"
+    diceimg05: "5.png",
+    diceimg06: "6.png",
+    diceimg11: "9.png",
+    diceimg12: '10.png',
+    diceimg13: "12.png",
+    diceimg14: "14.png",
+    diceimg15: "15.png",
+    diceimg16: "16.png"
 };
 init();
 
