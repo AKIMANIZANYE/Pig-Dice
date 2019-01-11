@@ -26,22 +26,21 @@ init();
 
 document.querySelector('.btn-roll').addEventListener('click', function () {
     if (gamePlaying) {
-        // 1. random number
+
         var dice = Math.floor(Math.random() * 6) + 1;
 
-        // 2. display result
+
         var diceDOM = document.querySelector('.dice');
         diceDOM.style.display = 'block';
         diceDOM.src = diceimgs['diceimg' + activePlayer + dice];
 
-        document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em';
+        document.querySelector('#ongoing-' + activePlayer).innerHTML = '<em>' + dice + '</em';
 
-        // 3. Update round score if the rolled number is not 1
         if (dice !== 1) {
             hideRolledMsg();
             //add score
             roundScore += dice;
-            document.querySelector('#current-' + activePlayer).textContent = roundScore;
+            document.querySelector('#ongoing-' + activePlayer).textContent = roundScore;
         } else {
             //disable button
 
