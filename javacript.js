@@ -7,10 +7,10 @@ var btnHold = document.querySelector('.btn-hold');
 
 var diceimgs = {
 
-    diceimg01: "https://cdn.pbrd.co/images/70YJMCVVR.png",
-    diceimg02: 'https://cdn.pbrd.co/images/711lemsMX.png',
-    diceimg03: "https://cdn.pbrd.co/images/711NjfjV5.png",
-    diceimg04: "https://cdn.pbrd.co/images/712dK3C2z.png",
+    diceimg01: "1.png",
+    diceimg02: '2.png',
+    diceimg03: "3.png",
+    diceimg04: "4.png",
     diceimg05: "https://cdn.pbrd.co/images/70Zqc4icX.png",
     diceimg06: "https://cdn.pbrd.co/images/712DzRw22.png",
     diceimg11: "https://cdn.pbrd.co/images/713n3lHQN.png",
@@ -121,8 +121,8 @@ function init() {
     document.querySelector('.dice').style.display = 'none';
     document.getElementById('score-0').textContent = '0';
     document.getElementById('score-1').textContent = '0';
-    document.getElementById('current-0').textContent = '0';
-    document.getElementById('current-1').textContent = '0';
+    document.getElementById('ongoing-0').textContent = '0';
+    document.getElementById('ongoing-1').textContent = '0';
     document.querySelector('.player-0-rolled-1').style.visibility = 'hidden';
     document.querySelector('.player-1-rolled-1').style.visibility = 'hidden';
 
@@ -150,8 +150,8 @@ function nextPlayer() {
         icons[i].classList.add('color-' + activePlayer);
     }
     document.querySelector('.player-' + activePlayer + '-panel').classList.add('active-' + activePlayer);
-    document.querySelector('#current-0').textContent = '0';
-    document.querySelector('#current-1').textContent = '0';
+    document.querySelector('#ongoing-0').textContent = '0';
+    document.querySelector('#ongoing-1').textContent = '0';
 }
 
 function disableBtn(btn, time) {
