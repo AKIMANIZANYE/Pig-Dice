@@ -1,7 +1,47 @@
-GAME RULES:
+# Pig-Dice
+#### Fourth Independent Project for Moringa prep class , April 8th, 2018
+#### By **Richard Waweru**
 
-- The game has 2 players, playing in rounds
-- In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score
-- BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn
-- The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score. After that, it's the next player's turn
-- The first player to reach 100 points on GLOBAL score wins the game
+## Description
+The Pig-Dice game is a fun game based on two players rolling a dice.
+
+A player rolls the die until either:
+
+    1. A one is rolled
+    2. The player chooses to hold i.e. stop rolling
+
+When a one is rolled, accumulated points are discarded and the other player takes over the dice.
+
+When Hold is pressed, the accumulated points are added to the player's final Score.
+
+The other player then takes the die over.
+
+## Specifications
+The web application will request the names of two users.
+
+The two players will proceed to roll the dice, by generating a random number from 1 to 6.
+
+If the output is not a 1, a player will continue to accumulate points and can hold in his discretion to add up to his/her final tally.
+
+An output of one results in a zero of accumulated points. 
+
+### The first player to get 100 is the Winner!
+
+## Preview
+**[Click here](https://devwaweru.github.io/Pig-Dice)** to see the live site.
+
+## Known Bugs
+No bugs so far. If found, email me at developer.waweru@gmail.com
+
+## Technologies Used
+    1. HTML
+    2. Bootstrap
+    3. Animate
+    4. js
+    5. jQuery
+
+## Support and contact details
+Contact me on developer.waweru@gmail.com for any comments, reviews or advice.
+
+### License
+Copyright (c) **Richard Waweru**
